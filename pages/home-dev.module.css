@@ -1,0 +1,783 @@
+.oNEIcon {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.oNEDiv1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.oNEDiv {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.logoDiv {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.buttonDiv {
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 150%;
+  font-family: var(--text-medium-bold);
+  color: var(--primary);
+  text-align: left;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  padding: var(--padding-6xs) var(--padding-5xs);
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 55px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonDiv1 {
+  position: relative;
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 150%;
+  font-family: var(--text-medium-bold);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.button1 {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  padding: var(--padding-6xs) var(--padding-2xs);
+  background-color: var(--primary);
+  box-sizing: border-box;
+  width: 102px;
+  flex-shrink: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+.actionsDiv,
+.button1,
+.topDiv,
+.topDiv1,
+.topMiddleDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.actionsDiv {
+  justify-content: center;
+  gap: var(--gap-sm);
+}
+.topDiv,
+.topDiv1,
+.topMiddleDiv {
+  flex-shrink: 0;
+}
+.topMiddleDiv {
+  width: 293px;
+  justify-content: space-between;
+}
+.topDiv,
+.topDiv1 {
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.topDiv1 {
+  width: 313px;
+  height: 55px;
+  padding: 0 var(--padding-5xs);
+}
+.topDiv {
+  background-color: var(--white);
+  border-top: 0 solid var(--color-black);
+  border-right: 0 solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+  border-left: 0 solid var(--color-black);
+  width: 1440px;
+  height: 124px;
+  overflow: hidden;
+}
+.elevateEcommerceByMessaging,
+.explodeConversionRatesSale {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+}
+.elevateEcommerceByMessaging {
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+}
+.explodeConversionRatesSale {
+  font-size: var(--heading-h4-size);
+  line-height: 130%;
+  font-weight: 700;
+}
+.actionsDiv1,
+.button2,
+.heroDiv,
+.titleDiv {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.titleDiv {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-lg);
+  gap: var(--gap-xl);
+}
+.actionsDiv1,
+.button2,
+.heroDiv {
+  flex-direction: row;
+}
+.button2 {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  padding: var(--padding-4xs) var(--padding-xs);
+  background-color: var(--primary);
+}
+.actionsDiv1,
+.heroDiv {
+  align-self: stretch;
+  padding: var(--padding-3xs) 0 0;
+}
+.heroDiv {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-5xl);
+  gap: var(--gap-xl);
+  background-image: url(../public/hero@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--heading-h1-size);
+}
+.demoH1,
+.seeHowYouCanTransformYour {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+}
+.demoH1 {
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+}
+.seeHowYouCanTransformYour {
+  font-size: var(--text-large-normal-size);
+  line-height: 150%;
+  font-weight: 400;
+}
+.automationsIcon,
+.playerVideo {
+  position: relative;
+  flex-shrink: 0;
+}
+.playerVideo {
+  width: 1280px;
+  height: 720px;
+  background-image: url(../public/rectangle11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.automationsIcon {
+  width: 1140px;
+  height: 1200px;
+}
+.demoDiv {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  background-image: url(../public/demo1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--heading-h2-size);
+  color: var(--color-black);
+}
+.connectYourEcommerceStoreT,
+.ecommerceChatMarketing {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+}
+.connectYourEcommerceStoreT {
+  margin: 0;
+  align-self: stretch;
+  font-size: var(--heading-h2-size);
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--white);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.ecommerceIconsWoo {
+  position: relative;
+  width: 424px;
+  height: 240px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.connectYourShopifyStoreTo,
+.shopifyB {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+}
+.connectYourShopifyStoreTo {
+  font-size: var(--text-regular-semi-bold-size);
+  line-height: 150%;
+}
+.contentDiv1 {
+  gap: var(--gap-xs);
+}
+.contentDiv,
+.contentDiv1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.columnDiv {
+  flex: 1;
+  height: 394px;
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.columnDiv,
+.columnDiv1,
+.contentDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentDiv2 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.columnDiv1 {
+  flex: 1;
+  height: 394px;
+  overflow: hidden;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.ecommerceIconsWoo2 {
+  position: relative;
+  width: 406px;
+  height: 240px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.columnDiv2,
+.rowDiv {
+  display: flex;
+  justify-content: center;
+}
+.columnDiv2 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-lg);
+}
+.rowDiv {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+  font-size: var(--heading-h5-size);
+  color: var(--white);
+}
+.ecommerceIntegrationsDiv {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-4xl)
+    var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  background-image: url(../public/ecommerceintegrations1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.oNEAllRightReserved,
+.privacyPolicySmall,
+.termsOfService {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.privacyPolicySmall,
+.termsOfService {
+  text-decoration: underline;
+}
+.footerLinksDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.creditsDiv,
+.footerDiv,
+.footerDiv1 {
+  align-self: stretch;
+  height: 91px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.creditsDiv {
+  border-top: 1px solid var(--primary);
+  border-right: 0 solid var(--primary);
+  border-bottom: 0 solid var(--primary);
+  border-left: 0 solid var(--primary);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-lg) 0;
+  gap: var(--gap-lg);
+}
+.footerDiv,
+.footerDiv1 {
+  flex-direction: column;
+}
+.footerDiv {
+  background-color: var(--white);
+  height: 211px;
+  overflow: hidden;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+}
+.iconCart {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.taglineDiv {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+  display: none;
+}
+.closeMoreSalesInAFraction,
+.sellFasterB {
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+}
+.closeMoreSalesInAFraction {
+  font-size: var(--text-medium-bold-size);
+  line-height: 150%;
+}
+.contentDiv8,
+.sectionTitleDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentDiv8 {
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--heading-h2-size);
+}
+.sectionTitleDiv {
+  gap: var(--gap-xs);
+}
+.icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.iconDiv {
+  position: relative;
+  width: 16px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.syndicateYourProductCatalog {
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+}
+.listItemDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.contentDiv7,
+.listDiv {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.listDiv {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+}
+.contentDiv7 {
+  align-self: stretch;
+  flex: 1;
+  gap: var(--gap-lg);
+}
+.benefitSellDiv,
+.contentDiv6,
+.contentDiv7 {
+  display: flex;
+  justify-content: flex-start;
+}
+.contentDiv6 {
+  flex: 1;
+  height: 488px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.benefitSellDiv {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-4xl);
+  background-image: url(../public/benefitsell1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.contentDiv10 {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-lg);
+}
+.benefitSaveDiv,
+.contentDiv10,
+.contentDiv9 {
+  display: flex;
+  justify-content: flex-start;
+}
+.contentDiv9 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.benefitSaveDiv {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-4xl);
+}
+.connectTo15ChannelsInReal {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.logosChannelsIcon {
+  position: relative;
+  width: 1040px;
+  height: 266px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logosDiv {
+  align-self: stretch;
+  background-color: var(--white);
+  height: 336px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-6xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  font-size: var(--heading-h5-size);
+}
+.captureLeadsH2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.icon8 {
+  position: relative;
+  width: 16px;
+  height: 17px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.benefitLeadsDiv {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.elevateYourEcommerceProfits {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.actionsDiv2,
+.contentDiv15 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentDiv15 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+.actionsDiv2 {
+  flex-direction: row;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.callToActionDiv,
+.columnDiv3 {
+  display: flex;
+  align-items: center;
+}
+.columnDiv3 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.callToActionDiv {
+  align-self: stretch;
+  height: 850px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-4xl) var(--padding-xl);
+  box-sizing: border-box;
+  justify-content: center;
+  background-image: url(../public/calltoaction1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--heading-h2-size);
+}
+.homeDevDiv {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  text-align: center;
+  font-size: var(--text-regular-semi-bold-size);
+  color: var(--primary);
+  font-family: var(--text-medium-bold);
+}
+@media screen and (max-width: 1200px) {
+  .playerVideo {
+    width: 1000px;
+    height: 565px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .elevateEcommerceByMessaging {
+    font-size: var(--font-size-2xl);
+  }
+  .explodeConversionRatesSale {
+    font-size: var(--text-large-normal-size);
+  }
+  .heroDiv {
+    padding: var(--padding-lg);
+    box-sizing: border-box;
+  }
+  .playerVideo {
+    width: 740px;
+    height: 416px;
+  }
+  .demoDiv {
+    padding: var(--padding-2xs) var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .columnDiv,
+  .columnDiv1,
+  .columnDiv2 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .rowDiv {
+    flex-direction: column;
+  }
+  .ecommerceIntegrationsDiv {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .iconCart {
+    display: none;
+  }
+  .connectTo15ChannelsInReal {
+    font-size: var(--text-small-semi-bold-size);
+  }
+  .logosChannelsIcon {
+    width: 700px;
+    height: 150px;
+  }
+  .logosDiv {
+    padding-left: var(--padding-5xs);
+    padding-right: var(--padding-5xs);
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .elevateYourEcommerceProfits {
+    font-size: var(--font-size-2xl);
+  }
+}
+@media screen and (max-width: 428px) {
+  .button {
+    padding-left: var(--padding-2xs);
+    padding-right: var(--padding-2xs);
+    box-sizing: border-box;
+  }
+  .heroDiv,
+  .topDiv {
+    padding: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .heroDiv {
+    padding: var(--padding-2xs) var(--padding-5xs) var(--padding-3xl);
+  }
+  .demoH1 {
+    font-size: var(--font-size-2xl);
+  }
+  .seeHowYouCanTransformYour {
+    font-size: var(--text-regular-semi-bold-size);
+  }
+  .playerVideo {
+    width: 400px;
+    height: 225px;
+  }
+  .demoDiv {
+    padding: var(--padding-2xs) 0;
+    box-sizing: border-box;
+  }
+  .connectYourEcommerceStoreT {
+    font-size: var(--font-size-2xl);
+  }
+  .ecommerceIntegrationsDiv {
+    padding-left: var(--padding-5xs);
+    padding-right: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .oNEAllRightReserved,
+  .privacyPolicySmall {
+    font-size: var(--font-size-3xs);
+  }
+  .benefitSellDiv {
+    padding: var(--padding-sm) var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .benefitSaveDiv {
+    padding-left: var(--padding-5xs);
+    padding-right: var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .logosChannelsIcon {
+    width: 400px;
+    height: 100px;
+  }
+  .benefitLeadsDiv,
+  .logosDiv {
+    padding: var(--padding-2xs) var(--padding-5xs) 0;
+    box-sizing: border-box;
+  }
+  .benefitLeadsDiv {
+    padding: var(--padding-sm) var(--padding-5xs);
+  }
+}
